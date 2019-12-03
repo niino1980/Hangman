@@ -1,8 +1,10 @@
 # Hangman
 Hangnman Game
 
+<img width="640" alt="Hangman" src="https://user-images.githubusercontent.com/45074914/70073030-c537eb80-15bd-11ea-9171-c175c480444e.png">
 
-This is my approach for the Hangman Game in MitX Course.
+
+This is my approach for the MitX Python Hangman Problem.
 
 I used a different aproach and it uses a file which contains >5000 words and these need to saved in the same path where the hangman.py is located.
 
