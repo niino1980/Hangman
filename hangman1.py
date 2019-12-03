@@ -11,11 +11,11 @@ def loadWords():
     # inFile: file
     inFile = open(WORDLIST_FILENAME, 'r', encoding="utf8")
     wordlist =[]
+ # here we read the wordlist and remove accents or special characters before loading
     for line in inFile:
         unicodedata.normalize('NFD', line).encode('ascii', 'ignore')
         line = line.split()
         wordlist.extend(line)
-#        unicodedata.normalize('NFD', line).encode('ascii', 'ignore')
         print(" "), len(wordlist), ("words loaded.")
 
     return wordlist
