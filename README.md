@@ -2,9 +2,6 @@
 Hangnman Game
 
 
-![hangman](https://user-images.githubusercontent.com/45074914/70072854-6b372600-15bd-11ea-8f43-f36ffcefdbd3.jpg)
-
-
 This is my approach for the Hangman Game in MitX Course.
 
 I used a different aproach and it uses a file which contains >5000 words and these need to saved in the same path where the hangman.py is located.
